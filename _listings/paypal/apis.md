@@ -34,7 +34,7 @@ apis:
   tags: Invoices
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/invoices/master/_listings/paypal/invoice-updateinvoice-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/invoices/master/_listings/paypal/invoice-createandsendinvoice-post.md
 x-common:
 - type: x-base-url
   url: https://api.paypal.com
