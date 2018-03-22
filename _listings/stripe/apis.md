@@ -33,7 +33,7 @@ apis:
   tags: Invoices
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/stripe/invoices-invoice-lines-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/stripe/invoices-invoice-pay-post.md
 x-common:
 - type: x-base
   url: https://api.stripe.com/
