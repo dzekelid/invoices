@@ -20,9 +20,9 @@ tags:
 - Bots
 - Applications
 - API LIfeycle
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/invoices/master/_listings/akamai/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/akamai/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Akamai API
@@ -33,7 +33,7 @@ apis:
   tags: Invoices
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/invoices/master/_listings/akamai/invoicing-api-v2-contracts-contractid-invoices-invoicenumber-files-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/akamai/invoicing-api-v2-accounts-accountid-invoices-year,month-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
