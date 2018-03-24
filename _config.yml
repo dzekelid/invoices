@@ -1,4 +1,5 @@
-title: Streamdata Gallery Invoices
+title: Streamdata API Gallery - Invoices
+description: A gallery of APIs to demonstrate what is possible when it comes to making data, content, and algorithms more real time, and event-driven as part of the API economy.
 url: invoices.streamdata.gallery
 tag: Invoices
 markdown: kramdown
