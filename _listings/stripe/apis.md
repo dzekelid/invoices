@@ -34,17 +34,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/stripe/invoices-invoice-pay-post.md
-- name: Stripe Get Invoices Invoice
-  description: Retrieves the invoice with the given ID.
+- name: Stripe Add Invoices Invoice
+  description: "Until an invoice is paid, it is marked as open (closed=false). If
+    you\u2019d like to stop Stripe from attempting to collect payment on an invoice
+    or would simply like to close the invoice out as no longer owed by the customer,
+    you can update the closed parameter."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1/
   tags: Invoices
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/stripe/invoices-invoice-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/stripe/invoices-invoice-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/stripe/invoices-invoice-post.md
 x-common:
 - type: x-base
   url: https://api.stripe.com/
