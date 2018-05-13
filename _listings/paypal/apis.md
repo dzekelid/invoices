@@ -35,15 +35,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/paypal/invoice-createinvoice-post.md
-- name: Paypal Update Invoice
-  description: Use the UpdateInvoice API operation to update an invoice.
+- name: Paypal Create And Send Invoice
+  description: Use the CreateAndSendInvoice API operation to create and send an invoice.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paypal-logo.png
   humanURL: https://paypal.com
   baseURL: https://svcs.sandbox.paypal.com//
   tags: Invoices
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/paypal/invoice-updateinvoice-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/paypal/invoice-createandsendinvoice-post.md
 x-common:
 - type: x-base-url
   url: https://api.paypal.com
