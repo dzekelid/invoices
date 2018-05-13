@@ -35,16 +35,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/paypal/invoice-createinvoice-post.md
-- name: Paypal Send Invoice
-  description: Use the SendInvoice API operation to send an invoice to a payer, and
-    notify the payer of the pending invoice.
+- name: Paypal Create Invoice
+  description: Use the CreateInvoice API operation to create a new invoice. The call
+    includes merchant, payer, and API caller information, in addition to invoice detail.
+    The response to the call contains an invoice ID and URL.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paypal-logo.png
   humanURL: https://paypal.com
   baseURL: https://svcs.sandbox.paypal.com//
   tags: Invoices
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/paypal/invoice-sendinvoice-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/paypal/invoice-createinvoice-post.md
 x-common:
 - type: x-base-url
   url: https://api.paypal.com
