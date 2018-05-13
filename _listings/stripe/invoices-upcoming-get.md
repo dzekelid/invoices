@@ -1,9 +1,23 @@
 ---
 swagger: "2.0"
 info:
-  title: Stripe
-  description: The Stripe REST API. Please see https://stripe.com/docs/api for more
-    details.
+  title: Stripe Get Invoices Upcoming
+  description: "At any time, you can preview the upcoming invoice for a customer.
+    This will show you all the charges that are pending, including subscription renewal
+    charges, invoice item charges, etc. It will also show you any discount that is
+    applicable to the customer.Note that when you are viewing an upcoming invoice,
+    you are simply viewing a preview \u2013 the invoice has not yet been created.
+    As such, the upcoming invoice will not show up in invoice listing calls, and you
+    cannot use the API to pay or edit the invoice. If you want to change the amount
+    that your customer will be billed, you can add, remove, or update pending invoice
+    items, or update the customer\u2019s discount.You can preview the effects of updating
+    a subscription, including a preview of what proration will take place. To ensure
+    that the actual proration is calculated exactly the same as the previewed proration,
+    you should pass a proration_date parameter when doing the actual subscription
+    update. The value passed in should be the same as the subscription_proration_date
+    returned on the upcoming invoice resource. The recommended way to get only the
+    prorations being previewed is to consider only proration line items where period[start]
+    is equal to the subscription_proration_date on the upcoming invoice resource."
   termsOfService: https://stripe.com/us/terms/
   contact:
     name: Stripe Dev Platform Team
