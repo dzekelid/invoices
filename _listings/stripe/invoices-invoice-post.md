@@ -1,9 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Stripe
-  description: The Stripe REST API. Please see https://stripe.com/docs/api for more
-    details.
+  title: Stripe Add Invoices Invoice
+  description: "Until an invoice is paid, it is marked as open (closed=false). If
+    you\u2019d like to stop Stripe from attempting to collect payment on an invoice
+    or would simply like to close the invoice out as no longer owed by the customer,
+    you can update the closed parameter."
   termsOfService: https://stripe.com/us/terms/
   contact:
     name: Stripe Dev Platform Team
