@@ -34,19 +34,19 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/stripe/invoices-invoice-pay-post.md
-- name: Stripe Get Invoices
-  description: You can list all invoices, or list the invoices for a specific customer.
-    The invoices are returned sorted by creation date, with the most recently created
-    invoices appearing first.
+- name: Stripe Add Invoices
+  description: "If you need to invoice your customer outside the regular billing cycle,
+    you can create an invoice that pulls in all pending invoice items, including prorations.
+    The customer\u2019s billing cycle and regular subscription won\u2019t be affected.Once
+    you create the invoice, Stripe will attempt to collect payment according to your
+    subscriptions settings, though you can choose to pay it right away."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1/
   tags: Invoices
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/stripe/invoices-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/stripe/invoices-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/stripe/invoices-post.md
 x-common:
 - type: x-base
   url: https://api.stripe.com/
