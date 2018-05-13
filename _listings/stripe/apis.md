@@ -34,19 +34,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/stripe/invoices-invoice-pay-post.md
-- name: Stripe Get Invoices Invoice Lines
-  description: "When retrieving an invoice, you\u2019ll get a lines property containing
-    the total count of line items and the first handful of those items. There is also
-    a URL where you can retrieve the full (paginated) list of line items."
+- name: Stripe Add Invoices Invoice Pay
+  description: "Stripe automatically creates and then attempts to collect payment
+    on invoices for customers on subscriptions according to your subscriptions settings.
+    However, if you\u2019d like to attempt payment on an invoice out of the normal
+    collection schedule or for some other reason, you can do so."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1/
   tags: Invoices
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/stripe/invoices-invoice-lines-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/stripe/invoices-invoice-lines-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/stripe/invoices-invoice-pay-post.md
 x-common:
 - type: x-base
   url: https://api.stripe.com/
