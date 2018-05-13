@@ -35,15 +35,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/paypal/invoice-createinvoice-post.md
-- name: Paypal Cancel Invoice
-  description: Use the CancelInvoice API operation to cancel an invoice.
+- name: Paypal Get Invoice Details
+  description: Use the GetInvoiceDetails API operation to get detailed information
+    about an invoice.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paypal-logo.png
   humanURL: https://paypal.com
   baseURL: https://svcs.sandbox.paypal.com//
   tags: Invoices
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/paypal/invoice-cancel-invoice-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/paypal/invoice-getinvoicedetails-post.md
 x-common:
 - type: x-base-url
   url: https://api.paypal.com
