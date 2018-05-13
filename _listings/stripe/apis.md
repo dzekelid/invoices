@@ -34,7 +34,38 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/stripe/invoices-invoice-pay-post.md
+- name: Stripe Get Invoices
+  description: You can list all invoices, or list the invoices for a specific customer.
+    The invoices are returned sorted by creation date, with the most recently created
+    invoices appearing first.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  humanURL: https://stripe.com/
+  baseURL: https://api.stripe.com/v1/
+  tags: Invoices
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/stripe/invoices-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/stripe/invoices-get-postman.md
 x-common:
+- type: x-base
+  url: https://api.stripe.com/
+- type: x-blog
+  url: https://stripe.com/blog
+- type: x-blog-rss
+  url: https://stripe.com/blog/feed.rss
+- type: x-change-log
+  url: https://stripe.com/docs/upgrades
+- type: x-crunchbase
+  url: http://www.crunchbase.com/company/stripe
+- type: x-github
+  url: https://github.com/stripe
+- type: x-pricing
+  url: https://stripe.com/us/pricing
+- type: x-twitter
+  url: https://twitter.com/stripe
+- type: x-website
+  url: https://stripe.com/
 - type: x-base
   url: https://api.stripe.com/
 - type: x-blog
