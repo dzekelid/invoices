@@ -1,9 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: PayPal (Sandbox)
-  description: Bring payments to apps, mobile and social with Adaptive Payments &lt;b&gt;(Sandbox
-    API).&lt;/b&gt;
+  title: Paypal Cancel Invoice
+  description: Use the CancelInvoice API operation to cancel an invoice.
   version: 1.0.0
 host: svcs.sandbox.paypal.com
 basePath: /
