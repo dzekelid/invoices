@@ -1,9 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: Stripe
-  description: The Stripe REST API. Please see https://stripe.com/docs/api for more
-    details.
+  title: Stripe Get Invoices Invoice Lines
+  description: "When retrieving an invoice, you\u2019ll get a lines property containing
+    the total count of line items and the first handful of those items. There is also
+    a URL where you can retrieve the full (paginated) list of line items."
   termsOfService: https://stripe.com/us/terms/
   contact:
     name: Stripe Dev Platform Team
