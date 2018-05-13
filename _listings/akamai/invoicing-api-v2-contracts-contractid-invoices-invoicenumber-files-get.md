@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Akamai Merged API
+  title: Akamai API List Contract&#8217;s Invoice Files
+  description: List Contract&#8217;s Invoice Files
   version: 1.0.0
+host: developer.akamai.com
+basePath: /
 schemes:
 - http
 produces:
@@ -16,11 +19,11 @@ paths:
       description: List Contract&#8217;s Invoice Files
       operationId: invoicingapiv2contractscontractidinvoicesinvoicenumberfiles
       parameters:
-      - in: String
+      - in: query
         name: contractId
         description: Identifies the contract under which data is aggregated
         type: string
-      - in: String
+      - in: query
         name: invoiceNumber
         description: Identifies each unique invoice
         type: string
