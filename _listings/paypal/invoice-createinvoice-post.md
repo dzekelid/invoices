@@ -1,9 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: PayPal (Sandbox)
-  description: Bring payments to apps, mobile and social with Adaptive Payments &lt;b&gt;(Sandbox
-    API).&lt;/b&gt;
+  title: Paypal Create Invoice
+  description: Use the CreateInvoice API operation to create a new invoice. The call
+    includes merchant, payer, and API caller information, in addition to invoice detail.
+    The response to the call contains an invoice ID and URL.
   version: 1.0.0
 host: svcs.sandbox.paypal.com
 basePath: /
