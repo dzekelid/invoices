@@ -35,15 +35,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/paypal/invoice-createinvoice-post.md
-- name: Paypal Mark Invoice As Paid
-  description: Use the MarkInvoiceAsPaid API operation to mark an invoice as paid.
+- name: Paypal Cancel Invoice
+  description: Use the CancelInvoice API operation to cancel an invoice.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paypal-logo.png
   humanURL: https://paypal.com
   baseURL: https://svcs.sandbox.paypal.com//
   tags: Invoices
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/paypal/invoice-markinvoiceaspaid-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/paypal/invoice-cancel-invoice-post.md
 x-common:
 - type: x-base-url
   url: https://api.paypal.com
