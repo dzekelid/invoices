@@ -1,9 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Stripe
-  description: The Stripe REST API. Please see https://stripe.com/docs/api for more
-    details.
+  title: Stripe Add Invoices Invoice Pay
+  description: "Stripe automatically creates and then attempts to collect payment
+    on invoices for customers on subscriptions according to your subscriptions settings.
+    However, if you\u2019d like to attempt payment on an invoice out of the normal
+    collection schedule or for some other reason, you can do so."
   termsOfService: https://stripe.com/us/terms/
   contact:
     name: Stripe Dev Platform Team
