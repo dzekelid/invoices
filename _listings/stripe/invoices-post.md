@@ -1,9 +1,12 @@
 ---
 swagger: "2.0"
 info:
-  title: Stripe
-  description: The Stripe REST API. Please see https://stripe.com/docs/api for more
-    details.
+  title: Stripe Add Invoices
+  description: "If you need to invoice your customer outside the regular billing cycle,
+    you can create an invoice that pulls in all pending invoice items, including prorations.
+    The customer\u2019s billing cycle and regular subscription won\u2019t be affected.Once
+    you create the invoice, Stripe will attempt to collect payment according to your
+    subscriptions settings, though you can choose to pay it right away."
   termsOfService: https://stripe.com/us/terms/
   contact:
     name: Stripe Dev Platform Team
