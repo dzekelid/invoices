@@ -3,14 +3,14 @@ name: Stripe
 x-slug: stripe
 description: Online payment processing for internet businesses. Stripe is a suite
   of payment APIs that powers commerce for online businesses of all sizes, including
-  fraud prevention, and subscription management. Use Stripe???s payment platform to
-  accept and process p...
+  fraud prevention, and subscription management. Use Stripes payment platform to accept
+  and process p...
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
 x-kinRank: "10"
-x-alexaRank: "1793"
+x-alexaRank: "1914"
 tags: Invoices
-created: "2018-06-20"
-modified: "2018-06-20"
+created: "2018-06-25"
+modified: "2018-06-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/stripe/apis.md
 specificationVersion: "0.14"
 apis:
@@ -158,8 +158,12 @@ x-common:
   url: nonprofit@stripe.com
 - type: x-email
   url: support@stripe.com
+- type: x-email
+  url: dpo@stripe.com
 - type: x-github
   url: https://github.com/stripe
+- type: x-linkedin
+  url: https://www.linkedin.com/company/stripe/
 - type: x-pricing
   url: https://stripe.com/us/pricing
 - type: x-twitter
