@@ -4,22 +4,22 @@ x-collection-name: Stripe
 x-complete: 0
 info:
   title: Stripe Get Invoices Upcoming
-  description: "At any time, you can preview the upcoming invoice for a customer.
-    This will show you all the charges that are pending, including subscription renewal
+  description: At any time, you can preview the upcoming invoice for a customer. This
+    will show you all the charges that are pending, including subscription renewal
     charges, invoice item charges, etc. It will also show you any discount that is
     applicable to the customer.Note that when you are viewing an upcoming invoice,
-    you are simply viewing a preview \u2013 the invoice has not yet been created.
-    As such, the upcoming invoice will not show up in invoice listing calls, and you
+    you are simply viewing a preview ??? the invoice has not yet been created. As
+    such, the upcoming invoice will not show up in invoice listing calls, and you
     cannot use the API to pay or edit the invoice. If you want to change the amount
     that your customer will be billed, you can add, remove, or update pending invoice
-    items, or update the customer\u2019s discount.You can preview the effects of updating
+    items, or update the customer???s discount.You can preview the effects of updating
     a subscription, including a preview of what proration will take place. To ensure
     that the actual proration is calculated exactly the same as the previewed proration,
     you should pass a proration_date parameter when doing the actual subscription
     update. The value passed in should be the same as the subscription_proration_date
     returned on the upcoming invoice resource. The recommended way to get only the
     prorations being previewed is to consider only proration line items where period[start]
-    is equal to the subscription_proration_date on the upcoming invoice resource."
+    is equal to the subscription_proration_date on the upcoming invoice resource.
   termsOfService: https://stripe.com/us/terms/
   contact:
     name: Stripe Dev Platform Team
@@ -118,12 +118,12 @@ paths:
       - Invoices
     post:
       summary: Add Invoices
-      description: "If you need to invoice your customer outside the regular billing
+      description: If you need to invoice your customer outside the regular billing
         cycle, you can create an invoice that pulls in all pending invoice items,
-        including prorations. The customer\u2019s billing cycle and regular subscription
-        won\u2019t be affected.Once you create the invoice, Stripe will attempt to
-        collect payment according to your subscriptions settings, though you can choose
-        to pay it right away."
+        including prorations. The customer???s billing cycle and regular subscription
+        won???t be affected.Once you create the invoice, Stripe will attempt to collect
+        payment according to your subscriptions settings, though you can choose to
+        pay it right away.
       operationId: postInvoices
       x-api-path-slug: invoices-post
       parameters:
@@ -180,23 +180,23 @@ paths:
   /invoices/upcoming:
     get:
       summary: Get Invoices Upcoming
-      description: "At any time, you can preview the upcoming invoice for a customer.
+      description: At any time, you can preview the upcoming invoice for a customer.
         This will show you all the charges that are pending, including subscription
         renewal charges, invoice item charges, etc. It will also show you any discount
         that is applicable to the customer.Note that when you are viewing an upcoming
-        invoice, you are simply viewing a preview \u2013 the invoice has not yet been
+        invoice, you are simply viewing a preview ??? the invoice has not yet been
         created. As such, the upcoming invoice will not show up in invoice listing
         calls, and you cannot use the API to pay or edit the invoice. If you want
         to change the amount that your customer will be billed, you can add, remove,
-        or update pending invoice items, or update the customer\u2019s discount.You
-        can preview the effects of updating a subscription, including a preview of
-        what proration will take place. To ensure that the actual proration is calculated
+        or update pending invoice items, or update the customer???s discount.You can
+        preview the effects of updating a subscription, including a preview of what
+        proration will take place. To ensure that the actual proration is calculated
         exactly the same as the previewed proration, you should pass a proration_date
         parameter when doing the actual subscription update. The value passed in should
         be the same as the subscription_proration_date returned on the upcoming invoice
         resource. The recommended way to get only the prorations being previewed is
         to consider only proration line items where period[start] is equal to the
-        subscription_proration_date on the upcoming invoice resource."
+        subscription_proration_date on the upcoming invoice resource.
       operationId: getInvoicesUpcoming
       x-api-path-slug: invoicesupcoming-get
       parameters:

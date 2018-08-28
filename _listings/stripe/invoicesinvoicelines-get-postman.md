@@ -2,7 +2,7 @@
   "info": {
     "name": "Stripe Get Invoices Invoice Lines",
     "_postman_id": "c9a52194-11e3-4af9-ae7c-ed7e847c54ea",
-    "description": "When retrieving an invoice, you’ll get a lines property containing the total count of line items and the first handful of those items. There is also a URL where you can retrieve the full (paginated) list of line items.",
+    "description": "When retrieving an invoice, you???ll get a lines property containing the total count of line items and the first handful of those items. There is also a URL where you can retrieve the full (paginated) list of line items.",
     "schema": "https://schema.getpostman.com/json/collection/v2.0.0/"
   },
   "item": [
@@ -94,7 +94,7 @@
             "body": {
               "mode": "raw"
             },
-            "description": "When retrieving an invoice, you’ll get a lines property containing the total count of line items and the first handful of those items"
+            "description": "When retrieving an invoice, you???ll get a lines property containing the total count of line items and the first handful of those items"
           },
           "response": [
             {

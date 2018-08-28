@@ -4,11 +4,11 @@ x-collection-name: Stripe
 x-complete: 0
 info:
   title: Stripe Add Invoices
-  description: "If you need to invoice your customer outside the regular billing cycle,
+  description: If you need to invoice your customer outside the regular billing cycle,
     you can create an invoice that pulls in all pending invoice items, including prorations.
-    The customer\u2019s billing cycle and regular subscription won\u2019t be affected.Once
+    The customer???s billing cycle and regular subscription won???t be affected.Once
     you create the invoice, Stripe will attempt to collect payment according to your
-    subscriptions settings, though you can choose to pay it right away."
+    subscriptions settings, though you can choose to pay it right away.
   termsOfService: https://stripe.com/us/terms/
   contact:
     name: Stripe Dev Platform Team
@@ -107,12 +107,12 @@ paths:
       - Invoices
     post:
       summary: Add Invoices
-      description: "If you need to invoice your customer outside the regular billing
+      description: If you need to invoice your customer outside the regular billing
         cycle, you can create an invoice that pulls in all pending invoice items,
-        including prorations. The customer\u2019s billing cycle and regular subscription
-        won\u2019t be affected.Once you create the invoice, Stripe will attempt to
-        collect payment according to your subscriptions settings, though you can choose
-        to pay it right away."
+        including prorations. The customer???s billing cycle and regular subscription
+        won???t be affected.Once you create the invoice, Stripe will attempt to collect
+        payment according to your subscriptions settings, though you can choose to
+        pay it right away.
       operationId: postInvoices
       x-api-path-slug: invoices-post
       parameters:

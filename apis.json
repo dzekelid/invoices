@@ -1,0 +1,603 @@
+{
+	"name": "Streadata.io API Gallery - Invoices",
+	"description": "This is a repository of invoices APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/invoices.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://invoices.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "3scale",
+			"x-api-slug": "3scale",
+			"description": "3scales API Management platform gives you the tools you need to take control of your API. Trusted by more customers than any other vendor.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg",
+			"humanURL": "http://3scale.net",
+			"baseURL": "https://su1.3scale.net//",
+			"tags": "Invoices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/3scale/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "FreshBooks",
+			"x-api-slug": "freshbooks",
+			"description": "The best cloud based small business accounting software. Send invoices, track time, manage receipts, expenses, and accept credit cards. Free 30-day trial.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/204-freshbooks.jpg",
+			"humanURL": "http://freshbooks.com/",
+			"baseURL": "https:///",
+			"tags": "Invoices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/freshbooks/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "PayPal",
+			"x-api-slug": "paypal",
+			"description": "PayPal is the faster, safer way to send money, make an online payment, receive money or set up a merchant account.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg",
+			"humanURL": "https://paypal.com",
+			"baseURL": "https://svcs.sandbox.paypal.com//",
+			"tags": "Invoices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/paypal/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Stripe",
+			"x-api-slug": "stripe",
+			"description": "Online payment processing for internet businesses. Stripe is a suite of payment APIs that powers commerce for online businesses of all sizes, including fraud prevention, and subscription management. Use Stripes payment platform to accept and process p...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg",
+			"humanURL": "https://stripe.com/",
+			"baseURL": "https://api.stripe.com/v1/",
+			"tags": "Invoices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/stripe/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Xero",
+			"x-api-slug": "xero",
+			"description": "Xero is the QuickBooks alternative. Use Xero accounting software to manage invoicing, bank reconciliation, bookkeeping & more. Start a free trial today!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg",
+			"humanURL": "http://www.xero.com/",
+			"baseURL": "https://api.xero.com//",
+			"tags": "Invoices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/xero/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Active Collab",
+			"x-api-slug": "active-collab",
+			"description": "Looking for state-of-the-art project management tool? Look no further, ActiveCollab is your next logical step towards better project workflow. Get it now!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/303-active-collab.jpg",
+			"humanURL": "http://www.activecollab.com",
+			"baseURL": "https:///",
+			"tags": "Invoices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/active-collab/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Accelo",
+			"x-api-slug": "accelo",
+			"description": "The #1 Service Operations Automation (ServOps) featuring sales, project management, email integration, retainer management, sales tracking, and support.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/320-accelo.jpg",
+			"humanURL": "https://www.accelo.com/",
+			"baseURL": "https:///",
+			"tags": "Invoices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/accelo/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "PowerInbox",
+			"x-api-slug": "powerinbox",
+			"description": "Chargify is the best online billing software for all of your Recurring Billing needs. Learn more about simplifying your Subscription Billing today.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/385-powerinbox.jpg",
+			"humanURL": "http://docs.chargify.com/api-introduction",
+			"baseURL": "https:///",
+			"tags": "Invoices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/powerinbox/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Clear Books",
+			"x-api-slug": "clear-books",
+			"description": "Clear Books is simple, award-winning cloud accounting software designed to help you save time so you can focus on growing your business. All your data is hosted securely online, so you can access your information and collaborate with your colleagues and accountant anywhere, any time.",
+			"image": "",
+			"humanURL": "http://www.clearbooks.co.uk",
+			"baseURL": "https:///",
+			"tags": "Invoices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/clear-books/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "The Invoice Machine",
+			"x-api-slug": "the-invoice-machine",
+			"description": "The Invoice Machine is an online invoicing service which simplifies your invoicing and makes it beautiful.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/425-the-invoice-machine.jpg",
+			"humanURL": "http://invoicemachine.com/api",
+			"baseURL": "https:///",
+			"tags": "Invoices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/the-invoice-machine/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "LessAccounting",
+			"x-api-slug": "lessaccounting",
+			"description": "All accounting software sucks, we just suck the least.   Small business bookkeeping made super easy.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/432-lessaccounting.jpg",
+			"humanURL": "http://lessaccounting.com",
+			"baseURL": "https:///",
+			"tags": "Invoices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/lessaccounting/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "OnForce",
+			"x-api-slug": "onforce",
+			"description": "Join OnForce to access contract opportunities at top companies. Companies find and hire talented contract professionals for their business needs.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/448-onforce.jpg",
+			"humanURL": "http://www.onforce.com/developer/",
+			"baseURL": "https:///",
+			"tags": "Invoices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/onforce/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Invoicera",
+			"x-api-slug": "invoicera",
+			"description": "Online invoicing & billing software - online invoices, subscription billing &  online payments. Best online invoicing software for SaaS companies, businesses & enterprises.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/822-invoicera.jpg",
+			"humanURL": "http://www.invoicera.com",
+			"baseURL": "https:///",
+			"tags": "Invoices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/invoicera/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "ServiceM8",
+			"x-api-slug": "servicem8",
+			"description": "ServiceM8 is a cloud based solution that helps field service organisations manage their business. ServiceM8 guides users from creating job quotes to invoicing and payment collection, and provides realtime information on what jobs are active, what quo...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/926-servicem8.jpg",
+			"humanURL": "http://www.servicem8.com/",
+			"baseURL": "https:///",
+			"tags": "Invoices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/servicem8/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "HostBill",
+			"x-api-slug": "hostbill",
+			"description": "Hosting, Cloud/IaaS/VPS Solutions Providers, Domain name and SSL Resellers around the globe use HostBill to automate & manage their online businesses",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1070-hostbill.jpg",
+			"humanURL": "http://hostbillapp.com/",
+			"baseURL": "https:///",
+			"tags": "Invoices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/hostbill/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Invoicefu",
+			"x-api-slug": "invoicefu",
+			"description": "No more hassling with invoice numbers, copying invoices manually, or losing any data. Youll be able to access your invoices from anywhere, at anytime, with all the guarantees of our industry strength secure servers. if you are a web or mobile apps dev...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1079-invoicefu.jpg",
+			"humanURL": "https://invoicefu.com",
+			"baseURL": "https:///",
+			"tags": "Invoices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/invoicefu/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "SecureNet",
+			"x-api-slug": "securenet",
+			"description": "Worldpay provides secure payment services for small and large businesses, including payments online, card machines and telephone payments. Find out more.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1145-securenet.jpg",
+			"humanURL": "http://www.securenet.com",
+			"baseURL": "https:///",
+			"tags": "Invoices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/securenet/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "VersaPay",
+			"x-api-slug": "versapay",
+			"description": "VersaPay handles elements of both credit and debit card merchant payment processing in Canada. In offering a host of merchant account services and credit card POS terminals it allows for an efficient merchant payment service in all aspects- in person, on the go, online, and at the office. Founded in 2005 by Michael Gokturk, VersaPay is a Canadian owned and operated national financial transaction services provider partnered with Chase Paymentech. Versapay also offers electronic funds transfer through a system called Versapay EMT.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1208-versapay-corporation.jpg",
+			"humanURL": "http://developers.versapay.com/index.html",
+			"baseURL": "https://secure.versapay.com//",
+			"tags": "Invoices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/versapay/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "BioID Web Services",
+			"x-api-slug": "bioid-web-services",
+			"description": "BioID offers unique anonymous multimodal biometric authentication services for face recognition and voice recognition with strong privacy protection. Find relevant background information on periocular eye recognition and anti-spoofing liveness detectio...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1311-bioid-web-services.jpg",
+			"humanURL": "http://www.bioid.com/products/bws/apis.html",
+			"baseURL": "https:///",
+			"tags": "Invoices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/bioid-web-services/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "MoneyBird",
+			"x-api-slug": "moneybird",
+			"description": "Plezier in je financile zaken met het boekhoudprogramma van Moneybird. Al meer dan 150.000 ZZPers en MKBers gingen je voor!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2201-moneybird.jpg",
+			"humanURL": "https://www.moneybird.com/",
+			"baseURL": "https:///",
+			"tags": "Invoices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/moneybird/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Intuit",
+			"x-api-slug": "intuit",
+			"description": "See how the power of Intuit Giants can work for you by joining the over 46 million people already using TurboTax, QuickBooks and Mint to power their financial prosperity.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intuit.jpg",
+			"humanURL": "https://intuit.com",
+			"baseURL": "https://DefaultParameterValue//v3/company/DefaultParameterValue",
+			"tags": "Invoices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/intuit/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "BillingOrchard",
+			"x-api-slug": "billingorchard",
+			"description": "BillingOrchard by Payscape is an online billing and invoicing software designed to simplify the billing process and get you paid faster. BillingOrchard is a perfect solution for businesses of all sizes - especially individual contractors and freelancer...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/10317-billingorchard.jpg",
+			"humanURL": "http://www.billingorchard.com/",
+			"baseURL": "https:///",
+			"tags": "Invoices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/billingorchard/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Hiveage",
+			"x-api-slug": "hiveage",
+			"description": "Hiveage is an online billing service for freelancers and small businesses, designed and developed by Vesess. Being a small business ourselves, we&rsquo;re well aware of the difficulties they face in managing finances, and Hiveage is our take on how to simplify the process.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Hiveage-logo.png",
+			"humanURL": "http://www.hiveage.com/",
+			"baseURL": "https:///",
+			"tags": "Invoices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/hiveage/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Taxamo",
+			"x-api-slug": "taxamo",
+			"description": "We make global digital VAT/GST compliance possible. #DigitalTax #DigiTax #TaxTrends",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18644-taxamo.jpg",
+			"humanURL": "https://www.taxamo.com/",
+			"baseURL": "https://api.taxamo.com//",
+			"tags": "Invoices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/taxamo/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Billing API",
+			"x-api-slug": "azure-billing-api",
+			"description": "Use Azure Billing APIs to pull usage and resource data into your preferred data analysis tools. The Azure Resource Usage and RateCard APIs can help you accurately predict and manage your costs. The APIs are implemented as a Resource Provider and part of the family of APIs exposed by the Azure Resource Manager.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-billing-api.png",
+			"humanURL": "https://docs.microsoft.com/en-us/azure/billing/billing-usage-rate-card-overview",
+			"baseURL": "://management.azure.com//",
+			"tags": "Invoices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/azure-billing-api/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Avaza",
+			"x-api-slug": "avaza",
+			"description": "Avaza is a beautiful online software suite with modules for Project Management, Timesheets, Expenses &amp; Invoicing. Access from anywhere, with any device. Avaza is the leading all-in-one software for running client focused businesses. Avaza allows businesses of all sizes to more easily and effectively manage team projects, time tracking, expense reporting, quoting &amp; invoicing. It can be accessed simply via a web browser from anywhere in the world on any device.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28373-avaza.jpg",
+			"humanURL": "https://www.avaza.com",
+			"baseURL": "https:///",
+			"tags": "Invoices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/avaza/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Rebilly",
+			"x-api-slug": "rebilly",
+			"description": "",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png",
+			"humanURL": "https://www.rebilly.com",
+			"baseURL": "https://api.rebilly.com//v2.1",
+			"tags": "Invoices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/rebilly/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Storecove",
+			"x-api-slug": "storecove",
+			"description": "Storecove is Netherlands&rsquo; first online platform that provides people and companies with a way to view all their invoices in one online overview. Dolf Kars, founder and former owner of Videostrip (acquired by RTL Nederland), established Storecove in 2014 with cofounder Michael Riviera and Willem Stemfoort. Storecove mainly focuses on automatically collecting invoices, which saves time and money.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/storecove-logo.jpg",
+			"humanURL": "http://www.storecove.com",
+			"baseURL": "https://api.storecove.com//api/v2",
+			"tags": "Invoices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/storecove/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "EU VAT API",
+			"x-api-slug": "eu-vat-api",
+			"description": "A developer friendly API to help your business achieve VAT compliance. Are you selling digital services to other EU countries? From Jan 1st 2015 changes to the VAT place of supply are coming into effect. One acceptable way to prove where your customer resides is their IP address. We have removed the headache and cost of you having to geo locate your customers IP address, and workout what VAT rate they should be charged. Simply pass your customers IP address from your application to our API and well return a JSON or XML object of all the current EU VAT rates for that country, or if you already know their country you can lookup the rates from the 2 digit country code.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/vatapi-logo.png",
+			"humanURL": "http://vatapi.com",
+			"baseURL": "https://vatapi.com//v1",
+			"tags": "Invoices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/eu-vat-api/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dezrez",
+			"x-api-slug": "dezrez",
+			"description": "Cloud based estate agent software , sales & letting agent software, estate agent website design and property management software - Dezrez  Services",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg",
+			"humanURL": "https://www.dezrez.com",
+			"baseURL": "https://api.dezrez.com//",
+			"tags": "Invoices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/dezrez/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Logicbroker",
+			"x-api-slug": "logicbroker",
+			"description": "Logicbroker provides beautiful technology that unites brands, retailers, and the systems they rely on. Harness the latest in cloud and supply chain automation technology with unrivaled speed and integration flexibility. We craft the connections that enable digital commerce.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logicbroker-logo.png",
+			"humanURL": "https://www.logicbroker.com/",
+			"baseURL": "https://stage.commerceapi.io//",
+			"tags": "Invoices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/logicbroker/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Invoices",
+	"include": [
+		{
+			"name": "3scale",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/3scale/apis.yaml"
+		},
+		{
+			"name": "FreshBooks",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/freshbooks/apis.yaml"
+		},
+		{
+			"name": "PayPal",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/paypal/apis.yaml"
+		},
+		{
+			"name": "Stripe",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/stripe/apis.yaml"
+		},
+		{
+			"name": "Xero",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/xero/apis.yaml"
+		},
+		{
+			"name": "Active Collab",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/active-collab/apis.yaml"
+		},
+		{
+			"name": "Accelo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/accelo/apis.yaml"
+		},
+		{
+			"name": "PowerInbox",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/powerinbox/apis.yaml"
+		},
+		{
+			"name": "Clear Books",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/clear-books/apis.yaml"
+		},
+		{
+			"name": "The Invoice Machine",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/the-invoice-machine/apis.yaml"
+		},
+		{
+			"name": "LessAccounting",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/lessaccounting/apis.yaml"
+		},
+		{
+			"name": "OnForce",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/onforce/apis.yaml"
+		},
+		{
+			"name": "Invoicera",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/invoicera/apis.yaml"
+		},
+		{
+			"name": "ServiceM8",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/servicem8/apis.yaml"
+		},
+		{
+			"name": "HostBill",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/hostbill/apis.yaml"
+		},
+		{
+			"name": "Invoicefu",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/invoicefu/apis.yaml"
+		},
+		{
+			"name": "SecureNet",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/securenet/apis.yaml"
+		},
+		{
+			"name": "VersaPay",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/versapay/apis.yaml"
+		},
+		{
+			"name": "BioID Web Services",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/bioid-web-services/apis.yaml"
+		},
+		{
+			"name": "MoneyBird",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/moneybird/apis.yaml"
+		},
+		{
+			"name": "Intuit",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/intuit/apis.yaml"
+		},
+		{
+			"name": "BillingOrchard",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/billingorchard/apis.yaml"
+		},
+		{
+			"name": "Hiveage",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/hiveage/apis.yaml"
+		},
+		{
+			"name": "Taxamo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/taxamo/apis.yaml"
+		},
+		{
+			"name": "Azure Billing API",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/azure-billing-api/apis.yaml"
+		},
+		{
+			"name": "Avaza",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/avaza/apis.yaml"
+		},
+		{
+			"name": "Rebilly",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/rebilly/apis.yaml"
+		},
+		{
+			"name": "Storecove",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/storecove/apis.yaml"
+		},
+		{
+			"name": "EU VAT API",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/eu-vat-api/apis.yaml"
+		},
+		{
+			"name": "Dezrez",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/dezrez/apis.yaml"
+		},
+		{
+			"name": "Logicbroker",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invoices/master/_listings/logicbroker/apis.yaml"
+		}
+	]
+}
